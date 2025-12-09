@@ -1,6 +1,6 @@
-# Smartcone
+# Plastic_EyeQ_Drill_Transpose
 
-Smartcone is a Next.js application for transforming traditional plastic-cone football drills into EyeQ Smart Cone training sessions. The app collects prompts from coaches, sends them to an OpenAI-backed API with a shared system prompt, and stores both the conversational history and approved outputs in Firebase for fine-tuning datasets.
+Plastic_EyeQ_Drill_Transpose is a Next.js application for transforming traditional plastic-cone football drills into EyeQ Smart Cone training sessions. The app collects plastic-cone based prompts from coaches, sends them to an OpenAI-backed API with a shared system prompt, and stores both the conversational history and approved EyeQ outputs in Firebase for OpenAI fine-tuning datasets.
 
 ## Architecture at a glance
 - **Frontend (Next.js Pages Router):** `pages/index.tsx` hosts the main UI where coaches submit drill descriptions, review AI responses, edit them inline, and download outputs or histories. Theme toggling hooks are defined in the page component to wrap the experience in light or dark styling modules.
